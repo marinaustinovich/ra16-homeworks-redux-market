@@ -1,38 +1,79 @@
 .App {
+  width: 70%;
+  margin: auto;
+  padding: 1rem;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+form {
+  width: 60%;
+  margin: auto;
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 2rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+form label {
+  font-weight: 700;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.form-group {
+  text-align: left;
 }
 
-.App-link {
-  color: #61dafb;
+input::placeholder {
+  font-size: 14px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.list-group {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+.card {
+  margin-bottom: 3rem;
+}
+
+.card img {
+  height: 250px;
+}
+
+.discount-badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 1;
+}
+
+.badge-danger {
+  font-size: 1.25rem;
+  width: 4rem;
+  height: 2rem;
+}
+
+.card-body {
+  text-align: left;
+}
+
+.card-price {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.card-title {
+  color: #0064ff;
+}
+
+.close {
+  font-size:  2.5rem;
+}
+
+.close:hover {
+  transform: scale(1.1);
+}
+
+.close:focus {
+  outline: none;
 }
