@@ -1,7 +1,7 @@
-import { Fragment } from 'react';
-import './App.css';
-import AddProductForm from './components/AddProductForm/AddProductForm';
-import ProductList from './components/ProductList/ProductList';
+import { Fragment } from "react";
+import "./App.css";
+import { AddProductForm, ProductList } from "./components";
+
 
 function App() {
   return (
